@@ -1,5 +1,7 @@
 ent-ClothingMaskGas = противогаз
     .desc = Закрывающая лицо маска, которую можно подключить к дыхательному баллону.
+ent-ClothingMaskGasFaceOpen = gas mask covered
+    .desc = { ent-ClothingMaskGas.desc }
 ent-ClothingMaskGasSecurity = противогаз СБ
     .desc = Стандартный противогаз Службы безопасности.
 ent-ClothingMaskGasSyndicate = противогаз синдиката
@@ -73,6 +75,8 @@ ent-ClothingMaskSadMime = грустная маска мима
     .desc = Многие считают, что именно так выглядит настоящая маска мима.
 ent-ClothingMaskScaredMime = испуганная маска мима
     .desc = Кажется, он бы закричал, если бы не маска.
+ent-ClothingMaskMimeSecurity = маска мима СБ
+    .desc = Вы имеете право хранить молчание.
 ent-ClothingMaskItalianMoustache = итальянские усы
     .desc = Изготовлены из волосков настоящих итальянских усов. Придаёт владельцу непреодолимое желание бурно жестикулировать.
 ent-ClothingMaskNinja = маска ниндзя

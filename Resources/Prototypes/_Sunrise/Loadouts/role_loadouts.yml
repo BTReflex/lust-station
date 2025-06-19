@@ -1,9 +1,12 @@
 - type: roleLoadout
   id: JobIAA
   groups:
-  - LawyerNeck
-  - LawyerJumpsuit
-  - CommonBackpack
+#Lust-Start
+  - IAAneck
+  - IAAuniform
+  - IAAcoat
+  - IAAback
+#Lust-End
   - Trinkets
   - Survival
   - GroupSpeciesBreathTool
@@ -377,7 +380,10 @@
   groups:
   - NanoTrasenRepresentativeJumpsuit
   - NanoTrasenRepresentativeOuterClothing
-  - CommonBackpack
+#Lust-Start
+  - QilluRepresentativeBackpack
+  - QilluRepresentativeNeck
+#Lust-End
   - Trinkets
   - Survival
   - GroupSpeciesBreathTool
@@ -450,3 +456,66 @@
   - SurvivalSyndicate
   - GroupSpeciesBreathTool
   - GroupPocketTankDouble
+
+- type: roleLoadout
+  id: JobMiningSpecialist
+  groups:
+  - GroupTankHarness
+  - SunriseSalvageHead
+  - SunriseSalvageMask
+  - SunriseSalvageGloves
+  - SalvageSpecialistBackpack
+  - SalvageSpecialistOuterClothing
+  - SunriseSalvageNeck
+  - SalvageSpecialistShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+  - TrinketsCargo
+  - Bra
+  - Pants
+  - Socks
+  - CommonPets
+
+  # Silicons
+
+- type: roleLoadout
+  id: JobPeaceBorg
+  nameDataset: NamesBorg
+  canCustomizeName: true
+
+- type: roleLoadout
+  id: JobJanitorBorg
+  nameDataset: NamesBorg
+  canCustomizeName: true
+
+- type: roleLoadout
+  id: JobMiningBorg
+  nameDataset: NamesBorg
+  canCustomizeName: true
+
+- type: roleLoadout
+  id: JobClownBorg
+  nameDataset: NamesBorg
+  canCustomizeName: true
+
+- type: roleLoadout
+  id: JobEngineerBorg
+  nameDataset: NamesBorg
+  canCustomizeName: true
+
+- type: roleLoadout
+  id: JobServiceBorg
+  nameDataset: NamesBorg
+  canCustomizeName: true
+
+- type: roleLoadout
+  id: JobMedicalBorg
+  nameDataset: NamesBorg
+  canCustomizeName: true
+
+- type: roleLoadout
+  id: JobSecurityBorg
+  nameDataset: NamesBorg
+  canCustomizeName: true

@@ -80,6 +80,7 @@
       - AssaultOpsUplink
       - SubdermalImplant
       - NukeOpsUplink
+      - LoneOpsUplink # Sunrise-Edit
   - !type:ListingLimitedStockCondition
     stock: 1
   #Sunrise-end
@@ -165,9 +166,9 @@
   productEntity: EnergyShieldBiocode
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 4
+    Telecrystal: 3  # Sunrise-Edit
   cost:
-    Telecrystal: 8
+    Telecrystal: 6  # Sunrise-Edit
   categories:
   - UplinkWeaponry
   #Sunrise-start
@@ -176,6 +177,8 @@
     blacklist:
       tags:
       - AssaultOpsUplink
+      - NukeOpsUplink
+      - LoneOpsUplink
   #Sunrise-end
 
 - type: listing
@@ -260,6 +263,7 @@
     whitelist:
       tags:
       - NukeOpsUplink
+      - LoneOpsUplink
 #Sunrise-end
 
 - type: listing
@@ -414,6 +418,7 @@
     whitelist:
       tags:
       - NukeOpsUplink
+      - LoneOpsUplink #Sunrise added
 
 - type: listing
   id: UplinkC4Bundle
@@ -485,6 +490,7 @@
     whitelist:
       tags:
       - NukeOpsUplink
+      - LoneOpsUplink
       - AssaultOpsUplink
 
 - type: listing
@@ -592,6 +598,36 @@
       - AssaultOpsUplink
   #Sunrise-end
 
+# For the Bulldog
+- type: listing
+  id: UplinkMagazineShotgunPellet
+  name: uplink-magazine-bulldog-pellet-name
+  description: uplink-magazine-bulldog-pellet-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: pellets }
+  productEntity: MagazineShotgun
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkAmmo
+
+- type: listing
+  id: UplinkMagazineShotgunSlug
+  name: uplink-magazine-bulldog-slug-name
+  description: uplink-magazine-bulldog-slug-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: slug }
+  productEntity: MagazineShotgunSlug
+  cost:
+    Telecrystal: 3
+  categories:
+  - UplinkAmmo
+  # Sunrise-Start
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - AssaultOpsUplink
+  # Sunrise-End
+
 # For the Cobra
 - type: listing
   id: UplinkMagazinePistolCaselessRifle
@@ -669,6 +705,7 @@
     whitelist:
       tags:
       - NukeOpsUplink
+      - LoneOpsUplink
 
 #Chemicals
 
@@ -685,6 +722,14 @@
     Telecrystal: 6
   categories:
   - UplinkChemicals
+  # Sunrise-Start
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - SubdermalImplant
+      - NukeOpsUplink
+  # Sunrise-End
 
 - type: listing
   id: UplinkHypoDart
@@ -729,6 +774,7 @@
     whitelist:
       tags:
       - NukeOpsUplink
+      - LoneOpsUplink
 
 - type: listing
   id: UplinkNocturineChemistryBottle
@@ -773,6 +819,7 @@
     whitelist:
       tags:
       - NukeOpsUplink
+      - LoneOpsUplink # Sunrise-Edit
       - AssaultOpsUplink # Sunrise-Edit
 
 - type: listing
@@ -792,6 +839,7 @@
     whitelist:
       tags:
       - NukeOpsUplink
+      - LoneOpsUplink # Sunrise-Edit
       - AssaultOpsUplink # Sunrise-Edit
 
 - type: listing
@@ -811,6 +859,7 @@
     whitelist:
       tags:
       - NukeOpsUplink
+      - LoneOpsUplink # Sunrise-Edit
       - AssaultOpsUplink # Sunrise-Edit
 
 - type: listing
@@ -840,6 +889,7 @@
     whitelist:
       tags:
       - NukeOpsUplink
+      - LoneOpsUplink # Sunrise-Edit
 
 # Deception
 
@@ -1141,10 +1191,10 @@
   categories:
   - UplinkDisruption
   conditions:
-  - !type:BuyerWhitelistCondition
+  - !type:BuyerWhitelistCondition #Sunrise-start
       blacklist:
         components:
-          - SurplusBundle
+          - SurplusBundle #Sunrise-end
 
 # Надо заменить на плату с целью помогать агентам.
 #- type: listing
@@ -1228,6 +1278,27 @@
       - SurplusBundle
 
 - type: listing
+  id: UplinkStarterKit
+  name: uplink-starter-kit-name
+  description: uplink-starter-kit-desc
+  productEntity: ClothingBackpackDuffelSyndicateFilledStarterKit
+  cost:
+    Telecrystal: 40
+  categories:
+  - UplinkDisruption
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+        - NukeOpsUplink
+        - LoneOpsUplink # Sunrise-Edit
+    - !type:BuyerWhitelistCondition
+      blacklist:
+        components:
+        - SurplusBundle
+
+
+- type: listing
   id: UplinkSingarityBeacon
   name: uplink-singularity-beacon-name
   description: uplink-singularity-beacon-desc
@@ -1292,6 +1363,7 @@
       blacklist:
         tags:
           - NukeOpsUplink
+          - LoneOpsUplink # Sunrise-Edit
           - AssaultOpsUplink # Sunrise-Edit
 
 - type: listing
@@ -1345,6 +1417,7 @@
       blacklist:
         tags:
           - NukeOpsUplink
+          - LoneOpsUplink # Sunrise-Edit
           - AssaultOpsUplink # Sunrise-Edit
 
 - type: listing
@@ -1404,6 +1477,7 @@
     blacklist:
       tags:
       - AssaultOpsUplink
+      - LoneOpsUplink
   # Sunrise-End
 
 - type: listing
@@ -1468,6 +1542,13 @@
     Telecrystal: 8 # it's a gamble that may kill you easily so 4 TC per 2 uses, second one more of a backup
   categories:
     - UplinkImplants
+  #Sunrise-start
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - NukeOpsUplink
+  #Sunrise-end
 
 - type: listing
   id: UplinkDnaScramblerImplant
@@ -1533,6 +1614,7 @@
     whitelist:
       tags:
       - NukeOpsUplink
+      - LoneOpsUplink # Sunrise-Edit
 
 - type: listing
   id: UplinkMacroBombImplanter
@@ -1549,6 +1631,7 @@
     whitelist:
       tags:
       - NukeOpsUplink
+      - LoneOpsUplink # Sunrise-Edit
 
 - type: listing
   id: UplinkDeathAcidifierImplanter
@@ -1565,6 +1648,7 @@
       whitelist:
         tags:
           - NukeOpsUplink
+          - LoneOpsUplink # Sunrise-Edit
 
 - type: listing
   id: UplinkUplinkImplanter # uplink uplink real
@@ -1791,6 +1875,7 @@
     blacklist:
       tags:
       - AssaultOpsUplink
+      - LoneOpsUplink
   #Sunrise-end
 
 - type: listing
@@ -1808,6 +1893,7 @@
     whitelist:
       tags:
       - NukeOpsUplink
+      - LoneOpsUplink # Sunrise-Edit
 
 - type: listing
   id: UplinkHardsuitSyndieElite
@@ -1840,6 +1926,7 @@
     whitelist:
       tags:
       - NukeOpsUplink
+      - LoneOpsUplink # Sunrise-Edit
 
 - type: listing
   id: UplinkClothingEyesHudSyndicate

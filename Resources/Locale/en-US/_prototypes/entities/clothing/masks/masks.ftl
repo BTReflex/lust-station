@@ -1,5 +1,7 @@
 ent-ClothingMaskGas = gas mask
     .desc = A face-covering mask that can be connected to an air supply.
+ent-ClothingMaskGasFaceOpen = gas mask covered
+    .desc = { ent-ClothingMaskGas.desc }
 ent-ClothingMaskGasSecurity = security gas mask
     .desc = A standard issue Security gas mask.
 ent-ClothingMaskGasSyndicate = syndicate gas mask
@@ -73,6 +75,8 @@ ent-ClothingMaskSadMime = sad mime mask
     .desc = Many people think this is what a real mime mask looks like.
 ent-ClothingMaskScaredMime = scared mime mask
     .desc = Looks like it would scream if it wasn't a mask.
+ent-ClothingMaskMimeSecurity = security mime mask
+    .desc = You have the right to remain silent.
 ent-ClothingMaskItalianMoustache = italian moustache
     .desc = Made from authentic Italian moustache hairs. Gives the wearer an irresistable urge to gesticulate wildly.
 ent-ClothingMaskNinja = ninja mask

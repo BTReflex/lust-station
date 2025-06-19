@@ -47,6 +47,9 @@
       "name": "eupha_everek"
     },
     {
+      "name": "luna"
+    },
+    {
       "name": "plushie_rend"
     },
     {
@@ -57,9 +60,15 @@
     },
     {
       "name": "ded_plushie"
-      },
+    },
     {
       "name": "bykov"
-      }
+    },
+    {
+      "name": "franz-evans"
+    },
+    {
+      "name": "arelitt-varmolnd"
+    }
   ]
 }
