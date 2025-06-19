@@ -1,0 +1,19 @@
+- type: entity
+  parent: AltarFangs
+  id: InfDormSpawner
+  name: Infinity dorm spawner
+  description: That... Thing? It will teleport you to your personal dorm room
+  placement:
+    mode: AlignTileAny
+  components:
+  - type: UserInterface
+    interfaces:
+     enum.HellSpawnArenaUiKey.Key:
+       type: HellSpawnArenaConsoleBoundUserInterface
+  - type: ActivatableUI
+    key: enum.HellSpawnArenaUiKey.Key
+  - type: HellSpawnConsole
+  - type: Godmode
+  - type: BlockedTool
+  - type: Sprite
+    sprite: _Lust/Objects/Devices/inf_dorm_tp.rsi/
