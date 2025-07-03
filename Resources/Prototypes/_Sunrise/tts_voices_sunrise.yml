@@ -894,7 +894,7 @@
   id: HeartstoneBob
   name: tts-voice-name-heartstone-bob1
   #Lust-Start
-  sex: 
+  sex:
   - Male
   #Lust-End
   speaker: hearthstone_bob1
@@ -905,9 +905,43 @@
   id: HeartstoneRexar
   name: tts-voice-name-heartstone-rexar
   #Lust-Start
-  sex: 
+  sex:
   - Male
   #Lust-End
   speaker: hearthstone_rexar
   provider: sunrise
   sponsorOnly: false
+
+- type: ttsVoice
+  id: Crysis2Blackops01
+  name: tts-voice-name-crysis2-ai-blackops-01
+  #Lust-Start
+  sex:
+  - Male
+  #Lust-End
+  speaker: crysis2_ai_blackops_01
+  provider: sunrise
+  sponsorOnly: false
+
+- type: ttsVoice
+  id: Crysis2Blackops02
+  name: tts-voice-name-crysis2-ai-blackops-02
+  #Lust-Start
+  sex:
+  - Male
+  #Lust-End
+  speaker: crysis2_ai_blackops_02
+  provider: sunrise
+  sponsorOnly: false
+
+- type: ttsVoice
+  id: Portal2FactCore
+  name: tts-voice-name-portal2-fact-core
+  #Lust-Start
+  sex:
+  - Male
+  #Lust-End
+  speaker: portal2_factcore
+  provider: sunrise
+  sponsorOnly: false
+  roundStart: false # Это ТТС для автоматов с едой, напитками и т.д (вендоров)
