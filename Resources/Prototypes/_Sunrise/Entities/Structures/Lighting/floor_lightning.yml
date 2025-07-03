@@ -1,0 +1,49 @@
+- type: entity
+  id: AlwaysPoweredFloorLight
+  name: light
+  description: "An always powered light."
+  suffix: Always powered
+  components:
+  # Sunrise start
+  - type: DamageOverlay
+    damagePopupType: SmallFloating
+    isStructure: true
+  # Sunrise end
+  - type: Transform
+    anchored: true
+  - type: InteractionOutline
+  - type: Construction
+    graph: LightFixture
+    node: tubeLight
+  - type: Sprite
+    sprite: Structures/Wallmounts/Lighting/floor_lights.rsi
+    drawdepth: WallMountedItems
+    layers:
+    - map: ["enum.PoweredLightLayers.Base"]
+      state: base
+    - map: ["enum.PoweredLightLayers.Glow"]
+      state: glow
+      shader: unshaded
+    state: base
+  - type: PointLight
+    color: "#FFE4CE" # 5000K color temp
+    energy: 0.8
+    radius: 10
+    softness: 1
+    offset: "0, -0.5"
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,0.5,0.4,0.35"
+        density: 190
+        mask:
+        - None
+        layer: []
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Floormount
