@@ -9,23 +9,33 @@ uplink-magazine-shotgun-name = Барабан (.50 ружейный).
 uplink-magazine-shotgun-desc = Барабан на 8 выстрелов для дробовика. Совместим с "Бульдогом".
 uplink-magazine-lmg-name = Коробка патронов (.30 винтовочные)
 uplink-magazine-lmg-desc = Коробка патронов на 100 выстрелов. Совместим с "L6-SAW".
-uplink-grenade-frag-name = Осколочная граната
-uplink-grenade-frag-desc = Осколочная граната. Совместима с "China-Lake".
-uplink-grenade-blast-name = Фугасная граната
-uplink-grenade-blast-desc = Фугасная граната. Совместима с "China-Lake".
-uplink-grenade-emp-name = ЭМИ граната
-uplink-grenade-emp-desc = ЭМИ граната. Совместима с "China-Lake".
+uplink-grenade-frag-timer-name = безконтактная Осколочная граната
+uplink-grenade-frag-timer-desc = Осколочная граната. Совместима с "China-Lake" и "GL-79". Взрывается через 2 секунды после выстрела.
+uplink-grenade-blast-timer-name = безконтактная Фугасная граната
+uplink-grenade-blast-timer-desc = Фугасная граната. Совместима с "China-Lake" и "GL-79". Взрывается через 2 секунды после выстрела.
+uplink-grenade-emp-timer-name = безконтактная ЭМИ граната
+uplink-grenade-emp-timer-desc = ЭМИ граната. Совместима с "China-Lake" и "GL-79". Взрывается через 2 секунды после выстрела.
+uplink-grenade-frag-contact-name = контактная Осколочная граната
+uplink-grenade-frag-contact-desc = Осколочная граната. Совместима с "China-Lake" и "GL-79". Взрывается при контакте с целью.
+uplink-grenade-blast-contact-name = контактная Фугасная граната
+uplink-grenade-blast-contact-desc = Фугасная граната. Совместима с "China-Lake" и "GL-79". Взрывается при контакте с целью.
+uplink-grenade-emp-contact-name = контактная ЭМИ граната
+uplink-grenade-emp-contact-desc = ЭМИ граната. Совместима с "China-Lake" и "GL-79". Взрывается при контакте с целью.
 uplink-magazine-siar52-name = Магазин ПП (.25 безгильзовый)
 uplink-magazine-siar52-desc = Магазин ПП на 30 патронов. Совместим с SIAR-52.
 uplink-magazine-bauer127-extended-name = расширенный магазин Bauer127 (.60 антиматериальные)
 uplink-mechpaint-mauler-name = балончик краски "МЯУЛЕР"
 uplink-mechpaint-mauler-desc = Содержит краску для Маулера. Превратите огромного МЕХа в милого котика!.
 uplink-magazine-bauer127-extended-desc = Магазин для Bauer127. Содержит 15 патронов калибра .60 антиматериальный.
-
 uplink-magazine-dl6902-name = Короб-магазин DL6902 (7,62мм)
 uplink-magazine-dl6902-desc = Магазин для Dl6902. Содержит 200 патронов калибра 7,62х39мм.
 uplink-magazine-dragunov-desc = Магазин для Драгунова. Содержит 10 патронов калибра 7,62х54R.
 uplink-magazine-dragunov-extended-desc = Магазин для Драгунова. Содержит 20 патронов калибра 7,62х54R.
+uplink-magazine-bulldog-uraniumslug-desc = Барабанный магазин на 8 урановых пулевых патронов. Совместим с "Бульдогом".
+uplink-magazine-bulldog-uranium-desc = Барабанный магазин на 8 патронов урановой дроби. Совместим с "Бульдогом".
+uplink-pistol-magnum-magazine-name = Магазин для Deagle
+uplink-pistol-magnum-magazine-desc = 7-зарядный однорядный магазин для пистолета. Содержит патроны SP. Совместим с "Диглом".
+
 ## Misc
 
 uplink-music-boombox-name = Музыкальный набор синдиката
@@ -36,7 +46,7 @@ uplink-music-boombox-desc = Содержит бумбокс синдиката �
 uplink-syndie-nvd-name = ПНВ Синдиката
 uplink-syndie-nvd-desc = Качественно исполненый прибор ночного видения, производства компании "Горлакс секьюрити", использует красные линзы для улучшения видимости в условиях низкой освещенности.
 uplink-syndie-thermal-name = оптический термальный сканер
-uplink-syndie-thermal-desc = Компактный термальный сканер. Оборудован системой свой-чужой. Идеально подходит для выявления и уничтожения сотрудников НаноТрейзен.
+uplink-syndie-thermal-desc = Компактный термальный сканер. Оборудован системой свой-чужой. Идеально подходит для выявления и уничтожения сотрудников NanoTrasen.
 uplink-syndie-diagnostic-hud-name = визор МЕХ-пилота синдиката
 uplink-syndie-diagnostic-hud-desc = Профессиональный визор анализирующий в реальном времени состояние МЕХа.
 uplink-clothing-backpack-syndie-name = Рюкзак Синдиката
@@ -67,6 +77,8 @@ uplink-weapon-syndie-laser-gun-name = S-13 «Чёрная мамба»
 uplink-weapon-bauer-127-name = винтовка Bauer SR-127
 uplink-weapon-dragunov-name = Набор Драгунов
 uplink-weapon-dragunov-desc = Культовая снайперская винтовка и два магазина на 10 патронов, известная своей меткостью и стрельбой на дальние дистанции. Использует винтовочные патроны калибра 7.62x54R.
+uplink-deagle-name = пистолет «Desert Eagle»
+uplink-deagle-desc = Cерьёзный аргумент в споре. Выгравировано: Мир благодаря превосходящей огневой мощи".
 
 ## Cyborgs
 
@@ -84,7 +96,7 @@ uplink-reinforcement-radio-syndicate-cyborg-reaper-desc = Отправляет �
 ## Equipment
 
 uplink-hypo-name = Горлекс гипоспрей
-uplink-hypo-desc = Химический гипоспрей, произвёденный синдикатом, способный мгновенно впрыснуть до 20 ед. реагентов. Изначально пуст.
+uplink-hypo-desc = Химический гипоспрей, произведёный синдикатом, способный мгновенно впрыснуть до 20 ед. реагентов. Изначально пуст.
 uplink-polytrinic-acid-chemistry-bottle-name = Политриновая кислота
 uplink-polytrinic-acid-chemistry-bottle-desc = Чрезвычайно едкое химическое вещество. Сильно обжигает всех, кто вступит с ней в непосредственный контакт.
 
@@ -122,6 +134,11 @@ uplink-launcher-cream-pie-fake-desc = Пирогомёт использующи�
 
 uplink-smoke-screen-implanter-name = Имплантер Дымовой Завесы
 uplink-smoke-screen-implanter-desc = Создает небольшое облако дыма, в котором вы можете скрыться. Можно использовать до трех раз, прежде чем у вас закончится газ.
+uplink-creepy-laugh-implanter-name = Имплантер Жуткого Смеха
+uplink-creepy-laugh-implanter-desc = Аудиоимплант, воспроизводящий фирменный смех синди-киборга. Раздражает, пугает, стиль гарантирован.
+
+## Ammo Kits and Bundle
+
 uplink-ammo-crate-ammokit-bundle-name = ящик супер набора боеприпасов синдиката
 uplink-ammo-crate-ammokit-bundle-desc = Перезаряжаю! Перезаряжаю! Перезаряжаю! Содержит все виды и наборы патронов, исключая боеприпасов для больших пушек.
 uplink-ammo-caselesskit-name = Набор безгильзовых патронов
